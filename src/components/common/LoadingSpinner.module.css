@@ -1,0 +1,28 @@
+.wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-brand);
+}
+
+.sm  { width: 16px; height: 16px; }
+.md  { width: 24px; height: 24px; }
+.lg  { width: 40px; height: 40px; }
+
+.svg {
+  width: 100%;
+  height: 100%;
+}
+
+.track {
+  opacity: 0.2;
+}
+
+.arc {
+  animation: spin 0.75s linear infinite;
+  transform-origin: center;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
